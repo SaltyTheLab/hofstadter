@@ -1,5 +1,3 @@
-package hofstadter.com.csc.Main;
-
 public class hofstadter {
     public static void main(String[] args) {
         for (int i = 0; i < 12; i++) {
