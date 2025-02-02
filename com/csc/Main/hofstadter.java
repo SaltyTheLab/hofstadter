@@ -2,8 +2,9 @@ package hofstadter.com.csc.Main;
 
 public class hofstadter {
     public static void main(String[] args) {
-        for (int i = 0; i < 100; i++) {
-            System.out.println(hof(i));
+        for (int i = 0; i < 12; i++) {
+            int n = i;
+            System.out.println(String.format("squenceG(%d) == %d ", n, hof(i)));
         }
     }
 
